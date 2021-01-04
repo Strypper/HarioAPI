@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hairo.API", "Hairo.API\Hairo.API.csproj", "{C1E4CDD2-A53A-4DB7-A66B-5F1654CB6ADD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hairo.Entities", "Hairo.Entities\Hairo.Entities.csproj", "{7378FC69-78ED-4A1D-A84F-2534CC047B64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hario.DataObject", "Hario.DataObject\Hario.DataObject.csproj", "{2D5AB40E-DB69-4904-87EA-AE66EC418C8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hario.Repo", "Hario.Repo\Hario.Repo.csproj", "{BEB20D0E-6600-4059-81EB-0AC15D11CDAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hario.Contract", "Hario.Contract\Hario.Contract.csproj", "{A0F60DFE-7600-4372-9436-97A1495A1B90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1E4CDD2-A53A-4DB7-A66B-5F1654CB6ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E4CDD2-A53A-4DB7-A66B-5F1654CB6ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E4CDD2-A53A-4DB7-A66B-5F1654CB6ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E4CDD2-A53A-4DB7-A66B-5F1654CB6ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7378FC69-78ED-4A1D-A84F-2534CC047B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7378FC69-78ED-4A1D-A84F-2534CC047B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7378FC69-78ED-4A1D-A84F-2534CC047B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7378FC69-78ED-4A1D-A84F-2534CC047B64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D5AB40E-DB69-4904-87EA-AE66EC418C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D5AB40E-DB69-4904-87EA-AE66EC418C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D5AB40E-DB69-4904-87EA-AE66EC418C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D5AB40E-DB69-4904-87EA-AE66EC418C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB20D0E-6600-4059-81EB-0AC15D11CDAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB20D0E-6600-4059-81EB-0AC15D11CDAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB20D0E-6600-4059-81EB-0AC15D11CDAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB20D0E-6600-4059-81EB-0AC15D11CDAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0F60DFE-7600-4372-9436-97A1495A1B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F60DFE-7600-4372-9436-97A1495A1B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F60DFE-7600-4372-9436-97A1495A1B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F60DFE-7600-4372-9436-97A1495A1B90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7CF140C-C347-4806-A05C-B99319544100}
+	EndGlobalSection
+EndGlobal

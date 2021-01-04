@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="IShopRepository.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="IShopRepository.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hairo.Entities\Hairo.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
